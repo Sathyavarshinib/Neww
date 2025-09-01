@@ -1,5 +1,19 @@
 [
   {
+    "name": "IIT Bombay",
+    "state": "Maharashtra",
+    "city": "Mumbai",
+    "course": "Engineering",
+    "cutoff": 90
+  },
+  {
+    "name": "IIT Delhi",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "course": "Engineering",
+    "cutoff": 92
+  },
+  {
     "name": "Anna University",
     "state": "Tamil Nadu",
     "city": "Chennai",
@@ -7,11 +21,18 @@
     "cutoff": 75
   },
   {
-    "name": "Loyola College",
+    "name": "NIT Trichy",
     "state": "Tamil Nadu",
-    "city": "Chennai",
-    "course": "Commerce",
-    "cutoff": 80
+    "city": "Tiruchirappalli",
+    "course": "Engineering",
+    "cutoff": 85
+  },
+  {
+    "name": "AIIMS Delhi",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "course": "Medical",
+    "cutoff": 92
   },
   {
     "name": "Madras Medical College",
@@ -21,10 +42,18 @@
     "cutoff": 85
   },
   {
-    "name": "NLSIU",
-    "state": "Karnataka",
-    "city": "Bengaluru",
-    "course": "Law",
-    "cutoff": 88
+    "name": "Delhi University",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "course": "Commerce",
+    "cutoff": 85
+  },
+  {
+    "name": "Loyola College",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "course": "Commerce",
+    "cutoff": 80
   }
 ]
+  
