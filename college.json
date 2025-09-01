@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Anna University",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "course": "Engineering",
+    "cutoff": 75
+  },
+  {
+    "name": "Loyola College",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "course": "Commerce",
+    "cutoff": 80
+  },
+  {
+    "name": "Madras Medical College",
+    "state": "Tamil Nadu",
+    "city": "Chennai",
+    "course": "Medical",
+    "cutoff": 85
+  },
+  {
+    "name": "NLSIU",
+    "state": "Karnataka",
+    "city": "Bengaluru",
+    "course": "Law",
+    "cutoff": 88
+  }
+]
