@@ -2,18 +2,18 @@ let student = JSON.parse(localStorage.getItem("studentData"));
 
 if (student) {
   document.getElementById("career").innerHTML =
-    `You should pursue: <b>${student.course}</b><br>
+    `You should pursue: <b>${student.subject}</b><br>
      Your 12th Marks: <b>${student.marks}%</b><br>
      Preferred State: <b>${student.state}</b><br>
      Preferred City: <b>${student.city}</b>`;
 
+  // Load colleges.json
   fetch("college.json")
     .then(response => response.json())
     .then(data => {
       let list = document.getElementById("collegeList");
 
       let filtered = data.filter(college =>
-        college.course.toLowerCase() === student.course.toLowerCase() &&
         college.state.toLowerCase() === student.state.toLowerCase() &&
         college.city.toLowerCase() === student.city.toLowerCase() &&
         student.marks >= college.cutoff
