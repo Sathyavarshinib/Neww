@@ -1,13 +1,13 @@
 document.getElementById("quizForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
-  let subject = document.getElementById("subject").value; // now directly course
+  let subject = document.getElementById("subject").value;
   let marks = parseInt(document.getElementById("marks").value);
   let state = document.getElementById("state").value;
   let city = document.getElementById("city").value;
 
   let student = {
-    course: subject,   // already course name
+    subject: subject,
     marks: marks,
     state: state,
     city: city
